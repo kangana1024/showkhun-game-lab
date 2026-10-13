@@ -1,0 +1,208 @@
+{
+  "extensions": [],
+  "meta": {
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Scratch/3.32.1 Chrome/148.0.7778.97 Electron/42.0.1 Safari/537.36",
+    "semver": "3.0.0",
+    "vm": "13.7.4-svg"
+  },
+  "monitors": [],
+  "targets": [
+    {
+      "blocks": {},
+      "broadcasts": {},
+      "comments": {},
+      "costumes": [
+        {
+          "assetId": "4b955995c0256ae41f75ec7e8c80618e",
+          "bitmapResolution": 2,
+          "dataFormat": "png",
+          "md5ext": "4b955995c0256ae41f75ec7e8c80618e.png",
+          "name": "สวนสาธารณะ",
+          "rotationCenterX": 480,
+          "rotationCenterY": 360
+        }
+      ],
+      "currentCostume": 0,
+      "isStage": true,
+      "layerOrder": 0,
+      "lists": {},
+      "name": "Stage",
+      "sounds": [],
+      "tempo": 60,
+      "textToSpeechLanguage": null,
+      "variables": {},
+      "videoState": "on",
+      "videoTransparency": 50,
+      "volume": 100
+    },
+    {
+      "blocks": {
+        "/|FD%smj}5{#al8P.J?S": {
+          "fields": {},
+          "inputs": {
+            "KEY_OPTION": [
+              1,
+              "{C2Gyz0qY^/!(gC6#fFa"
+            ]
+          },
+          "next": null,
+          "opcode": "sensing_keypressed",
+          "parent": "u2@L(TW=rzY?FB1M`Oa=",
+          "shadow": false,
+          "topLevel": false
+        },
+        "1BG{bGG3Z1_A(nOg3q-s": {
+          "fields": {},
+          "inputs": {
+            "CONDITION": [
+              2,
+              "XH#58G7]VJCqw{CZBf$4"
+            ],
+            "SUBSTACK": [
+              2,
+              "=Er?F*nzexm{6F51[?2a"
+            ]
+          },
+          "next": null,
+          "opcode": "control_if",
+          "parent": "u2@L(TW=rzY?FB1M`Oa=",
+          "shadow": false,
+          "topLevel": false
+        },
+        "4[ED~lN=Gm9vyt2@5(5$": {
+          "fields": {},
+          "inputs": {},
+          "next": "u2@L(TW=rzY?FB1M`Oa=",
+          "opcode": "event_whenflagclicked",
+          "parent": null,
+          "shadow": false,
+          "topLevel": true,
+          "x": 176,
+          "y": 67
+        },
+        ";:oE)X7*WUkLZ;Wb+bz/": {
+          "fields": {},
+          "inputs": {
+            "DX": [
+              1,
+              [
+                4,
+                "10"
+              ]
+            ]
+          },
+          "next": null,
+          "opcode": "motion_changexby",
+          "parent": "u2@L(TW=rzY?FB1M`Oa=",
+          "shadow": false,
+          "topLevel": false
+        },
+        "=Er?F*nzexm{6F51[?2a": {
+          "fields": {},
+          "inputs": {
+            "DX": [
+              1,
+              [
+                4,
+                "-10"
+              ]
+            ]
+          },
+          "next": null,
+          "opcode": "motion_changexby",
+          "parent": "1BG{bGG3Z1_A(nOg3q-s",
+          "shadow": false,
+          "topLevel": false
+        },
+        "K(r|IP?x22GA`*4wh}4s": {
+          "fields": {
+            "KEY_OPTION": [
+              "left arrow",
+              null
+            ]
+          },
+          "inputs": {},
+          "next": null,
+          "opcode": "sensing_keyoptions",
+          "parent": "XH#58G7]VJCqw{CZBf$4",
+          "shadow": true,
+          "topLevel": false
+        },
+        "XH#58G7]VJCqw{CZBf$4": {
+          "fields": {},
+          "inputs": {
+            "KEY_OPTION": [
+              1,
+              "K(r|IP?x22GA`*4wh}4s"
+            ]
+          },
+          "next": null,
+          "opcode": "sensing_keypressed",
+          "parent": "1BG{bGG3Z1_A(nOg3q-s",
+          "shadow": false,
+          "topLevel": false
+        },
+        "u2@L(TW=rzY?FB1M`Oa=": {
+          "fields": {},
+          "inputs": {
+            "CONDITION": [
+              2,
+              "/|FD%smj}5{#al8P.J?S"
+            ],
+            "SUBSTACK": [
+              2,
+              ";:oE)X7*WUkLZ;Wb+bz/"
+            ]
+          },
+          "next": "1BG{bGG3Z1_A(nOg3q-s",
+          "opcode": "control_if",
+          "parent": "4[ED~lN=Gm9vyt2@5(5$",
+          "shadow": false,
+          "topLevel": false
+        },
+        "{C2Gyz0qY^/!(gC6#fFa": {
+          "fields": {
+            "KEY_OPTION": [
+              "right arrow",
+              null
+            ]
+          },
+          "inputs": {},
+          "next": null,
+          "opcode": "sensing_keyoptions",
+          "parent": "/|FD%smj}5{#al8P.J?S",
+          "shadow": true,
+          "topLevel": false
+        }
+      },
+      "broadcasts": {},
+      "comments": {},
+      "costumes": [
+        {
+          "assetId": "38f698efeae63a00059e57014b95bab1",
+          "bitmapResolution": 2,
+          "dataFormat": "png",
+          "md5ext": "38f698efeae63a00059e57014b95bab1.png",
+          "name": "นั่ง",
+          "rotationCenterX": 83,
+          "rotationCenterY": 120
+        }
+      ],
+      "currentCostume": 0,
+      "direction": 90,
+      "draggable": false,
+      "isStage": false,
+      "layerOrder": 1,
+      "lists": {},
+      "name": "หยองหยอง",
+      "rotationStyle": "all around",
+      "size": 100,
+      "sounds": [],
+      "variables": {},
+      "visible": true,
+      "volume": 100,
+      "x": 0,
+      "y": -95
+    }
+  ]
+}
