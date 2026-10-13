@@ -1,4 +1,4 @@
 local part = script.Parent
 while true do
-	part.Brickcolor = BrickColor.random()
+	part.BrickColor = BrickColor.random()
 end
