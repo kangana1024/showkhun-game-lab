@@ -37,6 +37,20 @@
     },
     {
       "blocks": {
+        ",!;NQqkKk+l$$_COcU}U": {
+          "fields": {
+            "STYLE": [
+              "left-right",
+              null
+            ]
+          },
+          "inputs": {},
+          "next": "179T*L5j1)yc2irpNo)o",
+          "opcode": "motion_setrotationstyle",
+          "parent": "4[ED~lN=Gm9vyt2@5(5$",
+          "shadow": false,
+          "topLevel": false
+        },
         "/|FD%smj}5{#al8P.J?S": {
           "fields": {},
           "inputs": {
@@ -61,7 +75,7 @@
           },
           "next": null,
           "opcode": "control_forever",
-          "parent": "4[ED~lN=Gm9vyt2@5(5$",
+          "parent": ",!;NQqkKk+l$$_COcU}U",
           "shadow": false,
           "topLevel": false
         },
@@ -86,7 +100,7 @@
         "4[ED~lN=Gm9vyt2@5(5$": {
           "fields": {},
           "inputs": {},
-          "next": "179T*L5j1)yc2irpNo)o",
+          "next": ",!;NQqkKk+l$$_COcU}U",
           "opcode": "event_whenflagclicked",
           "parent": null,
           "shadow": false,
@@ -243,13 +257,13 @@
       "layerOrder": 1,
       "lists": {},
       "name": "หยองหยอง",
-      "rotationStyle": "all around",
+      "rotationStyle": "left-right",
       "size": 100,
       "sounds": [],
       "variables": {},
       "visible": true,
       "volume": 100,
-      "x": -194,
+      "x": -266,
       "y": -95
     }
   ]
