@@ -8,7 +8,7 @@
 | ตอน | บั๊ก | วิธีแก้ | ไฟล์ | คลิป |
 |---|---|---|---|---|
 | S1E01 หยองหยองเดินซ้าย-ขวา | ไม่ขยับ / กลับหัว / หายเข้าขอบจอ | วนซ้ำตลอด / หมุนแบบซ้าย-ขวา / ตั้งค่า x ไม่ให้เกิน ±200 | [scratch/s1e01-move](scratch/s1e01-move) | [YouTube](https://youtu.be/sGut0VtfFC8) · [Facebook](https://www.facebook.com/reel/2181042402483792) |
-| S2E01 แท่นกระพริบ (Roblox) | แท่นร่วง / Brickcolor error / Script timeout | Anchored / BrickColor / task.wait(0.5) | [roblox/s2e01-blink](roblox/s2e01-blink) | (เร็วๆ นี้) |
+| S2E01 แท่นกระพริบ (Roblox) | แท่นร่วง / Brickcolor error / Script timeout | Anchored / BrickColor / task.wait(0.5) | [roblox/s2e01-blink](roblox/s2e01-blink) | [YouTube](https://youtu.be/wXPtPNyInH8) · [Facebook](https://www.facebook.com/reel/1993806684643365) |
 
 ## วิธีเปิดไฟล์ `.sb3`
 
